@@ -2,7 +2,7 @@ import 'model.dart';
 
  createDataList(int amount){
   List<ProductModel> LstProduct = [];
-  for(int i=0; i<amount; i++){
+  for(int i=1; i<amount; i++){
     LstProduct.add(ProductModel(
       id: i,
       name: "Smartphone new version $i",
